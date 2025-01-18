@@ -16,6 +16,14 @@ class EmployerController {
       console.log(err);
     }
   }
+  // Add Employee 
+  async employeeADDPage(req, res){
+    try{
+      return res.render('employer/add')
+    }catch(err){
+      console.log(err)
+    }
+  }
 }
 
 module.exports = new EmployerController();

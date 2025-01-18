@@ -9,5 +9,6 @@ namedRouter.get(
   "/employer",
   employerController.employerListPage
 );
+namedRouter.get("employer-add", "/employer-add", employerController.employeeADDPage)
 
 module.exports = router;
